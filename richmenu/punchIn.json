@@ -1,0 +1,63 @@
+{
+    "name": "Punch In/Out Menu",
+    "size": {
+        "width": 2500,
+        "height": 843
+    },
+    "chatBarText": "打卡選單",
+    "selected": false,
+    "areas": [
+        {
+            "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 400,
+                "height": 843
+            },
+            "action": {
+                "label": "back",
+                "type": "postback",
+                "data": "back"
+            }
+        },
+        {
+            "bounds": {
+                "x": 400,
+                "y": 0,
+                "width": 700,
+                "height": 843
+            },
+            "action": {
+                "label": "punch in",
+                "type": "uri",
+                "uri": "{YOUR_LIFF_URL}"
+            }
+        },
+        {
+            "bounds": {
+                "x": 1100,
+                "y": 0,
+                "width": 700,
+                "height": 843
+            },
+            "action": {
+                "label": "punch out",
+                "type": "uri",
+                "uri": "{YOUR_LIFF_URL}"
+            }
+        },
+        {
+            "bounds": {
+                "x": 1800,
+                "y": 0,
+                "width": 700,
+                "height": 843
+            },
+            "action": {
+                "label": "punch record",
+                "type": "uri",
+                "uri": "{YOUR_LIFF_URL}"
+            }
+        }
+    ]
+}

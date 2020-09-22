@@ -1,0 +1,76 @@
+{
+    "name": "Main richmenu",
+    "size": {
+        "width": 2500,
+        "height": 843
+    },
+    "chatBarText": "主選單",
+    "selected": false,
+    "areas": [
+        {
+            "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 500,
+                "height": 843
+            },
+            "action": {
+                "label": "punch in",
+                "type": "postback",
+                "data": "punch in"
+            }
+        },
+        {
+            "bounds": {
+                "x": 500,
+                "y": 0,
+                "width": 500,
+                "height": 843
+            },
+            "action": {
+                "label": "new leave request",
+                "type": "uri",
+                "uri": "{YOUR_LIFF_URL}"
+            }
+        },
+        {
+            "bounds": {
+                "x": 1000,
+                "y": 0,
+                "width": 500,
+                "height": 843
+            },
+            "action": {
+                "label": "check LR",
+                "type": "uri",
+                "uri": "{YOUR_LIFF_URL}"
+            }
+        },
+        {
+            "bounds": {
+                "x": 1500,
+                "y": 0,
+                "width": 500,
+                "height": 843
+            },
+            "action": {
+                "label": "check and approve LR",
+                "type": "uri",
+                "uri": "{YOUR_LIFF_URL}"
+            }
+        },
+        {
+            "bounds": {
+                "x": 2000,
+                "y": 0,
+                "width": 500,
+                "height": 843
+            },
+            "action": {
+                "label": "setting",
+                "type": "postback",
+                "data": "setting"
+            }
+        }
+    ]
+}

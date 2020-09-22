@@ -1,0 +1,24 @@
+{
+    "name": "accountLink",
+    "size": {
+        "width": 2500,
+        "height": 843
+    },
+    "chatBarText": "綁定以使用其他功能",
+    "selected": true,
+    "areas": [
+        {
+            "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 2500,
+                "height": 843
+            },
+            "action": {
+                "label": "accountLink",
+                "type": "uri",
+                "uri": "{YOUR_LIFF_URL}"
+            }
+        }
+    ]
+}

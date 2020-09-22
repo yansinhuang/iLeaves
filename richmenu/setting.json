@@ -1,0 +1,50 @@
+{
+    "name": "Setting richmenu",
+    "size": {
+        "width": 2500,
+        "height": 843
+    },
+    "chatBarText": "設定",
+    "selected": false,
+    "areas": [
+        {
+            "bounds": {
+                "x": 0,
+                "y": 0,
+                "width": 400,
+                "height": 843
+            },
+            "action": {
+                "label": "back",
+                "type": "postback",
+                "data": "back"
+            }
+        },
+        {
+            "bounds": {
+                "x": 400,
+                "y": 0,
+                "width": 1050,
+                "height": 843
+            },
+            "action": {
+                "label": "reset password",
+                "type": "uri",
+                "uri": "{YOUR_LIFF_URL}"
+            }
+        },
+        {
+            "bounds": {
+                "x": 1450,
+                "y": 0,
+                "width": 1050,
+                "height": 843
+            },
+            "action": {
+                "label": "sign out",
+                "type": "uri",
+                "uri": "{YOUR_LIFF_URL}"
+            }
+        }
+    ]
+}
