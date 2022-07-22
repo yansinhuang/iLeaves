@@ -1,1 +1,3 @@
-iLeaves是Appmaster 內部的一個 ERP 系統，於LINE上提供員工及主管**假單申請**、**假單簽核**及**打卡**的功能，並即時傳送相應的訊息通知。
+**iLeaves** is a human resource management application based on LINE, which is the most popular mobile messaging app in Taiwan. This application was developed using ReactJS and NodeJS and connected with LINE through the LINE Messaging API. Users can access all features via LINE without downloading an additional app. <br>
+<br>
+An employee can manage their leaves and log in their attendance at certain locations (e.g. office or meeting point). A supervisor can supervise their team members' leave requests and track their attendance. iLeaves will notify related persons via LINE when necessary (e.g. when a leave request is made or a substitute is assigned).
