@@ -7,3 +7,4 @@ This repo contains only the back-end part of this project. For front-end part, p
 More details about this project can be found here:<br>
 * [iLeaves Demo Slides](https://github.com/yansinhuang/iLeaves/blob/master/iLeaves_Demo_Slides.pdf)<br>
 * [iLeaves Wiki](https://github.com/yansinhuang/iLeaves/wiki)
+* [API Document](https://ezbot2.docs.apiary.io/#)
