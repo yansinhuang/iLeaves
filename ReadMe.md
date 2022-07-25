@@ -2,7 +2,8 @@
 <br>
 An employee can manage their leaves and clock in their attendance with GPS location. A supervisor can supervise their team members' leave applications and track their attendance. iLeaves will notify related persons via LINE when necessary (e.g. when a leave request is made or a substitute employee is assigned).
 
+This repo contains only the back-end part of this project. For front-end part, please see [here](https://github.com/yansinhuang/iLeaves-web).
+
 More details about this project can be found here:<br>
 * [iLeaves Demo Slides](https://github.com/yansinhuang/iLeaves/blob/master/iLeaves_Demo_Slides.pdf)<br>
-* [iLeaves Front-end Repo](https://github.com/yansinhuang/iLeaves-web)<br>
 * [iLeaves Wiki](https://github.com/yansinhuang/iLeaves/wiki)
